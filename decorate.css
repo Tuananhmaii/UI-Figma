@@ -1,0 +1,184 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    display: flex;
+}
+.clickable{
+    cursor: pointer;
+}
+#left{
+    width: 20%;
+    height: 100%;
+}
+#right{
+    width: 80%;
+    height: 100%;
+    background-color: #e2e2f1;
+}
+
+/* Left bar */
+#list{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#list li{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+    color: rgb(38, 38, 181);
+    width: 70%;
+    align-items: center;
+}
+#list img{
+    padding-right: 25px;
+    padding-left: 10px;
+}
+#Dashboard{
+    background-color: #5a52a7;
+    border-radius: 10px;
+}
+
+/* Nav bar */
+#navbar{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+}
+#notice{
+    width: 50px;
+    display: flex;
+    padding-bottom: 35px;
+}
+#searchbar{
+    padding-left: 250px;
+    padding-right: 150px;
+}
+#search{
+    background-image: url(Icon/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 40px;
+    border-color: white;
+    border: none;
+    width: 300px;
+    height: 45px;
+}
+#profile{
+    padding-left: 70px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+/* Make crypto and My cards */
+#middleUpper{
+    width: 65%;
+    display: flex;
+    margin-left: 20px;
+    background-color:#7166D2;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    height: 250px;
+}
+#section1{
+    padding-top: 40px;
+}
+#seeTransaction{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:medium;
+    width: 70%;
+    background-color: #5a52a7;
+}
+#NFT{
+    width: 300px;
+    height: 100%;
+    margin-left: 200px;
+}
+#mycard{
+    background-color: #e2e2f1;
+    padding-left: 50px;
+    color: black;
+}
+
+/* Market */
+#market{
+    margin-left: 20px;
+    width: 65%;
+    padding-top: 15px;
+}
+
+/* Willie */
+#willie{
+    width: 100%;
+    padding-left: 20px;
+}
+#bottom{
+    display: flex;
+}
+.BTC{
+    margin-left: 10px;
+    background-color: white;
+    width: 38%;
+    display: flex;
+    height: 70px;
+    border-radius: 10px;
+}
+.text{
+    padding-left: 60px;
+}
+.icon{
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.icon,.text{
+    margin-top: 10px;
+}
+#eth{
+    font-size: 40px;
+}
+
+/* Monthly Limits and Transaction */
+#middleRight{
+    float: right;
+}
+#monthly{
+    padding-right: 170px;
+    padding-top: 10px;
+}
+#transaction{
+    width: 100%;
+    padding-top: 20px;
+}
+#viewDetails{
+    background-color: rgb(229, 135, 106);
+    width: 90%;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+table{
+    background-color: white;
+    height: 300px;
+    border-radius: 5px;
+    width: 90%;
+}
+td{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.money{
+    color: #5a52a7;
+}
+td img{
+    padding-left: 15px;
+}
